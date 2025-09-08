@@ -270,7 +270,3 @@ This reference covers:
 * Piping & redirection
 * Environment variables
 * Package management
-
-Mastering these basics will make you effective in the Linux command line!
-
-```
