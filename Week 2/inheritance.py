@@ -37,43 +37,44 @@
 
 # single inheritance
 
-class Animal:
-    def speak(self):
-        print("This animal makes a sound")
-class Dog(Animal):
-    def speack(self):
-        return super().speak()
+# class Animal:
+#     def speak(self):
+#         print("This animal makes a sound")
+# class Dog(Animal):
+#     def speack(self):
+#         return super().speak()
     
-dog = Dog()
-dog.speak()
+# dog = Dog()
+# dog.speak()
 
-# multilevel
-class animal:
-    def eat(self):
-        print("eating...")
-class mammal(animal):
-    def walk(self):
-        print("walking...")
-class dog(mammal):
-    def bark(self):
-        print("barking...")
+# # multilevel
+# class animal:
+#     def eat(self):
+#         print("eating...")
+# class mammal(animal):
+#     def walk(self):
+#         print("walking...")
+# class dog(mammal):
+#     def bark(self):
+#         print("barking...")
 
-d = dog()
-d.bark()
-d.eat()
+# d = dog()
+# d.bark()
+# d.eat()
 
-# multiple 
-class goat(dog,mammal):
-    def sound(self):
-        print("sounding...")
+# # multiple 
+# class goat(dog,mammal):
+#     def sound(self):
+#         print("sounding...")
 
-x = goat()
-x.sound()
+# x = goat()
+# x.sound()
 
-# 5. Hybrid Inheritance (Multiple + Multilevel)
-class ok(goat, animal):
-    def foo(self):
-        print("fooing...")
+# # 5. Hybrid Inheritance (Multiple + Multilevel)
+# class ok(goat, animal):
+#     def foo(self):
+#         print("fooing...")
 
-y = ok()
-y.foo()
+# y = ok()
+# y.foo()
+

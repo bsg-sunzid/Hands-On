@@ -15,3 +15,18 @@ class bike(Vehicle):
 Vehicles = [car("toyota"), bike("honda"),car("tesla")]
 for v in Vehicles:
     v.drive()
+
+
+
+class Bookcollection:
+    def __init__(self, books):
+        self.books = books
+    def __len__(self):
+        return len(self.books)
+    def __str__(self):
+        return f"bookcollection with {len(self)} books: {', ' .join(self.books)}"
+
+my_books = Bookcollection(["Python 101", "C++"])
+print(len(my_books))
+print(my_books)
+

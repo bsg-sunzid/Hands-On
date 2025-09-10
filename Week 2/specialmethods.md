@@ -160,5 +160,5 @@ with FileManager("test.txt", "w") as f:
 * `__iter__`: Make objects iterable.
 * `__call__`: Make objects behave like functions.
 * `__enter__` / `__exit__`: Context manager support.
-
-```
+* `__enter__` = setup (open resource).
+* `__exit__` = cleanup (close resource).
